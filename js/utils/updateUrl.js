@@ -15,6 +15,6 @@ export const updateUrl = (filterObj, searchType) => {
         const /** {String} */ root = window.location.origin;
         const /** {String} */ searchQuery = urlEncode(filterObj);
 
-        window.location = `${root}/pages/${searchType}/${searchType}.html?${searchQuery}`;
+        window.location = `${root}/peak/${searchType}/${searchType}.html?${searchQuery}`;
     }, 500);
 }
