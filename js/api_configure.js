@@ -42,7 +42,7 @@ export const /** {Object} */ client = {
          * @param {Function} callback callback function
          */
         search(parameters, callback) {
-            requestUrl = `${root.default/Peak}search?${urlEncode(parameters)}`;
+            requestUrl = `${root/Peak.default}search?${urlEncode(parameters)}`;
             fetchData(requestUrl, callback);
         },
 
@@ -74,7 +74,7 @@ export const /** {Object} */ client = {
          * @param {function} callback callback function
          */
         search(parameters, callback) {
-            requestUrl = `${root.videos/Peak}search?${urlEncode(parameters)}`;
+            requestUrl = `${root/Peak.videos}search?${urlEncode(parameters)}`;
             fetchData(requestUrl, callback);
         },
 
