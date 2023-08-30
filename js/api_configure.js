@@ -61,7 +61,7 @@ export const /** {Object} */ client = {
          * @param {Function} callback Callback function
          */
         detail(id, callback) {
-            fetchData(`${root.default}Peak/photos/${id}`, callback);
+            fetchData(`${root.default}photos/${id}`, callback);
         }
 
     },
